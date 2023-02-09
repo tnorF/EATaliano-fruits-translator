@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	font-family: "Montserrat", sans-serif;
+    background-color: #c9bebe;
+}
+
+.wrapper {
+    width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #4f3056;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 400px;
+    padding: 20px 40px;
+    font-family: "Dancing Script", cursive;
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/22/17/56/fruits-2431860_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(91, 88, 88, 0.296);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 65px;
+}
+
+.search {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: rgba(230, 230, 230, 80%);
+}
+
+h2 {
+    background-color: rgb(220, 203, 206);
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.words {
+    padding: 30px 40px;
+    margin-left: 2px;
+}
+
+
+ul {
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;;
+}
+
+li {
+    border-bottom: 1px solid #e0d3d3;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
